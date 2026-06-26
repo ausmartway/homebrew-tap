@@ -20,7 +20,7 @@ cask "bar-helper" do
 
   # bar-helper relies on system APIs and the menu-bar model finalized in
   # macOS 16+ (validated on macOS 26 "Tahoe").
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "bar-helper.app"
 
