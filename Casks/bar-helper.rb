@@ -12,8 +12,7 @@ cask "bar-helper" do
   version "0.1.0"
   sha256 "9ab657bac6202e41e28811fb9a2796bd867fd1cade5a749901424411ac02789a"
 
-  url "https://github.com/ausmartway/bar-helper/releases/download/v#{version}/bar-helper-#{version}.zip",
-      verified: "github.com/ausmartway/bar-helper/"
+  url "https://github.com/ausmartway/bar-helper/releases/download/v#{version}/bar-helper-#{version}.zip"
   name "bar-helper"
   desc "Menu bar manager that hides, reveals, and styles status items"
   homepage "https://github.com/ausmartway/bar-helper"
